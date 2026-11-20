@@ -1,0 +1,7 @@
+import sys
+from importlib.metadata import version
+
+print(f"# Python {sys.version.split()[0]}")
+for pkg in ["tensorflow", "keras", "statsmodels", "numpy", "pandas",
+            "scikit-learn", "scipy", "matplotlib"]:
+    print(f"{pkg}=={version(pkg)}")

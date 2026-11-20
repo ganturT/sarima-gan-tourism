@@ -1,0 +1,2 @@
+lr,units,val_rmse_mean,val_rmse_std,val_rmse_worst,val_mape_mean,best_epoch_mean,score
+0.008,1024,8929.750879010824,79.84721417154445,9004.38692840242,15.546563470894926,1.0,9009.598093182369
